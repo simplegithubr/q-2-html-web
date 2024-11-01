@@ -1,0 +1,255 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-1{
+   display: flex;
+  justify-content: space-between;
+   background-color: rgb(71, 173, 241);
+   padding: 15px 20px;
+   align-items: center;
+}
+.nav-1 img{
+    width: 10%;
+   
+    margin: 5px;
+    padding: 5px;
+    margin-right: 90px;
+    
+   
+   
+
+}
+.nav-links{
+   list-style: none;
+   display: flex;
+ justify-content: left;
+   gap: 30px;
+   flex: 1;
+
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+.nav-links li a:hover{
+    color: blueviolet;
+}
+.baneer{
+    text-align: center;
+ margin-top: 10px;
+
+}
+.banner-img{
+   
+        width: 100%;
+      max-height: 400px;
+    object-fit: cover;
+    
+
+    
+}
+.paragraph-text{
+
+    padding: 20px;
+    text-align: center;
+    
+    color: #333;
+}
+.paragraph-text p {
+    font-size: 1.1rm;
+    line-height: 1.6;
+}
+.footer-section{
+    text-align: center;
+    background-color: rgb(72, 162, 235);
+    width: 100%;
+    padding: 10px;
+    
+}
+/*--about--*/
+.profile-section {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+  }
+  .profile-text {
+    flex: 1;
+  }
+  .profile-text p {
+    margin-bottom: 20px;
+    font-size: 2em;
+    line-height: 1.5;
+    color: #333;
+  }
+  .skills-list li {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: justify;
+    margin: 15px;
+    
+  }
+ 
+  .imeges {
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-inline-start: auto;
+    
+  }
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    background-color: #229ecf;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+.navbar {
+  background-color: #4A90E2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar .bold {
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.content {
+  padding: 20px;
+}
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  text-align: left;
+  display: flex;
+}
+
+.portfolio-image {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+.robby{
+  margin: 8px;
+  
+}
+
+
+
+
+
+.footer {
+  background-color: #4A90E2;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+  .about-section {
+    padding: 20px;
+  
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .about-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  
+  .video-placeholder iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+    border-radius: 10px;
+  }
+  form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  form label {
+    
+    margin: 10px 0 5px;
+  display: flex;
+  }
+  fieldset{
+    padding: 5px;
+  }
+  button{
+    border-radius: 70px;
+    padding: 2px 5px;
+  }
+ 
+ 
+  .location-map{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+ 
+}
+
+.location-map iframe{
+  width: 100%;
+}
+  
+
+
+  
